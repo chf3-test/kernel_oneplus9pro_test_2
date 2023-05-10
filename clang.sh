@@ -1,6 +1,6 @@
 make clean && make mrproper
 NAME=lemonadep
-CLANG=/root/clang/bin
+CLANG=$GITHUB_WORKSPACE/clang/bin
 export CLANG_PATH=$CLANG
 export PATH=${CLANG_PATH}:${PATH}
 export ARCH=arm64
